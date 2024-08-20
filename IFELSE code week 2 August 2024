@@ -1,0 +1,29 @@
+import random
+
+a = random.randint(1, 100)
+b = random.randint(1, 32)
+print(f"Your score is: {a}")
+print(f"Presence: {b}")
+
+if a == 100:
+    print("Aight Bet")
+elif a >= 90:
+    print("Excellent")
+elif a >= 80:
+    print("Bet")
+elif a >= 70:
+    print("Absolutely no doctor")
+elif a >= 60:
+    print("U suck")
+elif a >= 50:
+    print("Such Failure")
+elif a >= 40:
+    print("Study u fool")
+elif a >= 30:
+    print("STOP EATIN MCDONALDS!!!")
+elif a >= 20:
+    print("Ur dad prolly getting milk")
+elif a >= 10:
+    print("STOP EATIN TACO BELL!!!")
+else:
+    print("YOU SHOULD KILL YOURSELF... NOW!!!")
